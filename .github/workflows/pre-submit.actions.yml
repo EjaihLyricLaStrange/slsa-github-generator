@@ -521,7 +521,7 @@ jobs:
           binary: "slsa-generator-generic-linux-amd64"
           directory: "internal/builders/generic"
           # NOTE: compile-builder explicitly set to false.
-          compile-builder: false
+          compile-builder: true
 
   generate-attestations:
     runs-on: ubuntu-latest
